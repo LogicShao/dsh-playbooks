@@ -1,0 +1,13 @@
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 安装时产生的备份
+*.bak-*/
+
+# 系统杂物
+.DS_Store
+Thumbs.db
+
+# 临时目录
+.tmp/

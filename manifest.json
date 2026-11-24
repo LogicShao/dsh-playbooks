@@ -1,0 +1,61 @@
+{
+  "schema": 1,
+  "skills": {
+    "academic-slide-deck": {
+      "version": "1.0.0",
+      "files": {
+        "CHANGELOG.md": "96eda4f99c6dcd5dc5770eb1dbca17132594f1b084bea13c750c5d2bd344f6da",
+        "SKILL.md": "f39841c6cbd653f984c1ecf73577a923a6532d7b2a7a685aaa1f11caf29b0f8f",
+        "VERSION": "4ca8bbd3c595ee306226c6996b32b8d47a900217c55a7ed0cfc868ee444f34f1"
+      }
+    },
+    "dsh-ppt-deck": {
+      "version": "1.0.0",
+      "files": {
+        "assets/deck_kit.py": "a372354d0eea03d72bf98e9013c1455019dcaf9bf36bbe31857a92f233442f36",
+        "CHANGELOG.md": "4b0ea13434d00b1ecd4c3d163b5d417b936b070c755cfbc5cb6dbfbaf68c22b5",
+        "SKILL.md": "7325dbb9db0e4182577e839e518418edfae7df0b2f25964a6eef703b50e01c8e",
+        "VERSION": "4ca8bbd3c595ee306226c6996b32b8d47a900217c55a7ed0cfc868ee444f34f1"
+      }
+    },
+    "humanize-writing": {
+      "version": "1.0.0",
+      "files": {
+        "CHANGELOG.md": "fc100329a8a34a106490be589ef9311a110e8941653247ed9961a15eff07323d",
+        "references/checklist.md": "f55f1d323c4bc1ccc2b0a70fa291871190b6d3838585e50ec2dd76f22d17d325",
+        "references/en-patterns.md": "5dd25cd1f9a1003e065caa8d9c06f4dc2e47713a8c652ee3808ad62c440133a8",
+        "references/playbook.md": "d1ca82627e32c4af791429850e51d8aceb085b597449bc72a2ce1f87b29d2c8b",
+        "references/style-guide.md": "56049d4e003cd4fafedc9ba79486c086f22405f68a2aa0a41befa6a9b9c8bf8c",
+        "references/zh-patterns.md": "e7e8d79eed3d048dbfa3dfcff5c21556b48499ef4b0a6875ff215a66d1e817ad",
+        "SKILL.md": "8dd88c2197b728bd8a43dfd2c91bd343555b3e18b30847e45934200b18919406",
+        "VERSION": "4ca8bbd3c595ee306226c6996b32b8d47a900217c55a7ed0cfc868ee444f34f1"
+      }
+    },
+    "longform-report": {
+      "version": "1.0.0",
+      "files": {
+        "CHANGELOG.md": "e85d2b87635bc752523abf8aa03cca45a4b57470579fa57362704a0f495114f9",
+        "references/cases.md": "563337eeab62707e61c62917fc2405636099c5f9f21addad2faf0de69582e469",
+        "references/layout.md": "ed3bfb0bfd79bc9b7a9f2debb91f6c9e753d5d58d0dbb887a9ab56fe8d6549f4",
+        "references/prompts.md": "8fc0ee4280a8160c31ec081490d8351005f2bc7b8499d455cd8e4291e9ec64bb",
+        "SKILL.md": "3affb49cacbecdb3994426d2d753104c3b148c92240dec607d6ebd43f6c232fc",
+        "VERSION": "4ca8bbd3c595ee306226c6996b32b8d47a900217c55a7ed0cfc868ee444f34f1"
+      }
+    },
+    "research-align": {
+      "version": "1.0.0",
+      "files": {
+        "assets/claim-evidence.md": "2b61d1cc2c36ab40bf10fed1c950c894af36fe4ba8547e1cf410fc94ed85a1fb",
+        "assets/decisions.md": "bbaa95bc5e1d96b1dbcd302b1da083f08dc927678656726465571735275b8ebf",
+        "assets/research-brief.md": "942aa0c9052c65d932937c8364708f34f4fec572ba7378d3a853750330640f1f",
+        "CHANGELOG.md": "d24259a4ea889cb7dc0e71a65e9c2805df65dd08183e79d5a2fbee58845eb955",
+        "references/alignment-protocol.md": "d22d3e01be417a81419f0ad0303e221d87809a1bade8c59584d98ba08e1dddb0",
+        "references/open-source-landscape.md": "58697af3dfa53b9ab6421147de3fc29c2a7b6d2d07c93fbe1c15297460ccc2ad",
+        "references/task-recipes.md": "305057f2c468f01ad4a3619bc62e7fbe229ff52e32c9e64db49a28e0eae91183",
+        "references/verification.md": "edba57409b5f2820d3fd376a4ca5d42981ece702e47a47b67d1cf37de94b3788",
+        "SKILL.md": "acabe6f3652d24443bb77f1be207a9e0986608bf5d486044db540991a34d1412",
+        "VERSION": "4ca8bbd3c595ee306226c6996b32b8d47a900217c55a7ed0cfc868ee444f34f1"
+      }
+    }
+  }
+}
