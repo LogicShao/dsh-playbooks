@@ -35,7 +35,8 @@ function Write-Manifest([string]$Repo) {
             files   = Get-SkillFileMap $d.FullName
         }
     }
-    $json = $out | ConvertTo-Json -Depth 8
+    # ConvertTo-Json 在 Windows 上用 CRLF，统一成 LF，避免检出后哈希对不上
+    $json = ($out | ConvertTo-Json -Depth 8) -replace "`r`n", "`n"
     $utf8 = New-Object System.Text.UTF8Encoding($false)
     [System.IO.File]::WriteAllText((Join-Path $Repo 'manifest.json'), $json + "`n", $utf8)
 }
