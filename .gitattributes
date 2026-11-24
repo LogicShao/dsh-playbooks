@@ -1,0 +1,7 @@
+# 统一换行，避免 Windows 检出成 CRLF 后哈希与 manifest 对不上
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.zip binary
