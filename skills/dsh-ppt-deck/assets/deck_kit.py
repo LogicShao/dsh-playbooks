@@ -4,7 +4,7 @@
 
     from deck_kit import *
 
-    d = Deck(title="项目汇报", author="邵逸帆")
+    d = Deck(title="项目汇报", author="作者")
     s = d.blank()
     header(s, "一句话结论当标题")
     body(s, 0.9, 1.8, "正文一条，不超过十二字")

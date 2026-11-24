@@ -1,4 +1,4 @@
-# dsh-skills
+# dsh-playbooks
 
 给 DeepSeek Harness（DSH）用的技能仓库。每个技能是一个自包含目录，带自己的版本号和更新记录，可以装进任意项目的 `.dsh/skills/`，也可以装到 profile 里全局生效。
 
@@ -8,10 +8,10 @@
 
 | 技能 | 版本 | 什么时候用 | 一句话 |
 |---|---|---|---|
-| [dsh-ppt-deck](skills/dsh-ppt-deck/SKILL.md) | 1.0.0 | 做 PPT、汇报材料、答辩稿、课件；或改一份现成的 .pptx | 先大纲后脚本，python-pptx 生成，渲染成 PNG 逐页看图 |
-| [academic-slide-deck](skills/academic-slide-deck/SKILL.md) | 1.0.0 | 组会、翻转课堂、开题、答辩，想要 Beamer 质感 | LaTeX Beamer → PDF → 逐页图 PPTX + 讲稿 |
+| [dsh-ppt-deck](skills/dsh-ppt-deck/SKILL.md) | 1.0.1 | 做 PPT、汇报材料、答辩稿、课件；或改一份现成的 .pptx | 先大纲后脚本，python-pptx 生成，渲染成 PNG 逐页看图 |
+| [academic-slide-deck](skills/academic-slide-deck/SKILL.md) | 1.0.1 | 组会、翻转课堂、开题、答辩，想要 Beamer 质感 | LaTeX Beamer → PDF → 逐页图 PPTX + 讲稿 |
 | [humanize-writing](skills/humanize-writing/SKILL.md) | 1.0.0 | 去 AI 味、写得更像人、模仿某人文风 | 删 → 换 → 补 → 读，四步减法 |
-| [longform-report](skills/longform-report/SKILL.md) | 1.0.0 | 综述、调研报告、白皮书、实验报告，超过三五页 | 七步流水线：调研 → 台账 → 写作 → 独立复核 → 版式验收 |
+| [longform-report](skills/longform-report/SKILL.md) | 1.0.1 | 综述、调研报告、白皮书、实验报告，超过三五页 | 七步流水线：调研 → 台账 → 写作 → 独立复核 → 版式验收 |
 | [research-align](skills/research-align/SKILL.md) | 1.0.0 | 科研写作、改稿、审稿回复，怕它写偏或编文献 | `.research/` 三件套 + 复述握手 + 四道闸门 |
 
 两个 PPT 技能的分工：要**可编辑的 pptx**、以代码驱动排版，用 `dsh-ppt-deck`；要**Beamer 的排版质量**、接受 PPTX 是逐页图，用 `academic-slide-deck`。
@@ -71,7 +71,7 @@ git checkout dsh-ppt-deck/v1.0.0     # 回到某个稳定版本再安装
 ## 目录结构
 
 ```
-dsh-skills/
+dsh-playbooks/
 ├─ manifest.json              # 版本 + 每个文件的 sha256，由 scripts/manifest.ps1 生成
 ├─ skills/
 │  ├─ dsh-ppt-deck/

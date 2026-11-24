@@ -2,20 +2,20 @@
   "schema": 1,
   "skills": {
     "academic-slide-deck": {
-      "version": "1.0.0",
+      "version": "1.0.1",
       "files": {
-        "CHANGELOG.md": "df8c7d4cd5d553d85a138185b57e3523f65d54898fd695aa7a915d21118da7de",
-        "SKILL.md": "f39841c6cbd653f984c1ecf73577a923a6532d7b2a7a685aaa1f11caf29b0f8f",
-        "VERSION": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03"
+        "CHANGELOG.md": "a1bdad64488cbb8e109c4e28ec9f1a02ebea69b415d944b26033d70222b5d887",
+        "SKILL.md": "3606a293829311916b1591bdb53fa9139c454f472c77c3fd423f91a979724f5c",
+        "VERSION": "79c5ba684b4f8f1bebcc956ef8f1b88afdcbb9f3d279f59e8802483eb01b48a0"
       }
     },
     "dsh-ppt-deck": {
-      "version": "1.0.0",
+      "version": "1.0.1",
       "files": {
-        "assets/deck_kit.py": "a372354d0eea03d72bf98e9013c1455019dcaf9bf36bbe31857a92f233442f36",
-        "CHANGELOG.md": "44c5e43ca85607ad0726f9b73c01439c44c48a6418e4da5624ca2b50ca41d3d4",
-        "SKILL.md": "7325dbb9db0e4182577e839e518418edfae7df0b2f25964a6eef703b50e01c8e",
-        "VERSION": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03"
+        "assets/deck_kit.py": "64b0aa17ebd94a1ceecfdef311c2dddfd1eac6a0d89130010e66e1af977bf98c",
+        "CHANGELOG.md": "a1f3adf8777c7c9d824a82c764484e99cb4785c907f0cb8354a67914bf354d71",
+        "SKILL.md": "e5adb016555b33586f69cf85de6f5e4ec64089df9ebd5d4374a7a465ae3b75f4",
+        "VERSION": "79c5ba684b4f8f1bebcc956ef8f1b88afdcbb9f3d279f59e8802483eb01b48a0"
       }
     },
     "humanize-writing": {
@@ -32,14 +32,14 @@
       }
     },
     "longform-report": {
-      "version": "1.0.0",
+      "version": "1.0.1",
       "files": {
-        "CHANGELOG.md": "3b12ada7ce1aea66c182f6cc445c241a98870859b045ed37c5d59dcfa7ec528f",
-        "references/cases.md": "563337eeab62707e61c62917fc2405636099c5f9f21addad2faf0de69582e469",
+        "CHANGELOG.md": "19705e386c4f98702e663091967a7646f12ce9afc61e45f145f969ad8d3c21fe",
+        "references/cases.md": "59d810ac2b74e0d339094a5146e1c1d4e0f10105166de21afeee9825977078f0",
         "references/layout.md": "ed3bfb0bfd79bc9b7a9f2debb91f6c9e753d5d58d0dbb887a9ab56fe8d6549f4",
         "references/prompts.md": "8fc0ee4280a8160c31ec081490d8351005f2bc7b8499d455cd8e4291e9ec64bb",
-        "SKILL.md": "3affb49cacbecdb3994426d2d753104c3b148c92240dec607d6ebd43f6c232fc",
-        "VERSION": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03"
+        "SKILL.md": "16bd0b058d88865b81a3a99d310c669758811d4efead9c4b4e0c0ca0c1cd8c68",
+        "VERSION": "79c5ba684b4f8f1bebcc956ef8f1b88afdcbb9f3d279f59e8802483eb01b48a0"
       }
     },
     "research-align": {

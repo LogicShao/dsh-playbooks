@@ -1,5 +1,9 @@
 # academic-slide-deck 更新记录
 
+## v1.0.1 — 2026-11-24
+
+- 示例时长去掉项目特定值；仓库更名
+
 ## v1.0.0 — 2026-11-24
 
 - 从 profile（`~/.dsh/skills`）收录：Beamer → PDF → 逐页图 PPTX + 讲稿的完整工作流。
