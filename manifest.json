@@ -2,11 +2,15 @@
   "schema": 1,
   "skills": {
     "academic-slide-deck": {
-      "version": "1.0.1",
+      "version": "1.1.0",
       "files": {
-        "CHANGELOG.md": "a1bdad64488cbb8e109c4e28ec9f1a02ebea69b415d944b26033d70222b5d887",
-        "SKILL.md": "3606a293829311916b1591bdb53fa9139c454f472c77c3fd423f91a979724f5c",
-        "VERSION": "79c5ba684b4f8f1bebcc956ef8f1b88afdcbb9f3d279f59e8802483eb01b48a0"
+        "assets/beamer_notes.py": "f1d574453496804c66799f05461d389edf704d27e3869ada7f8194ac5cfcb4d3",
+        "CHANGELOG.md": "5397ff8bf52f6f53cfb69199cd4e184232c06d5bf8dba69c017bf1fffde11751",
+        "references/create-beamer-deck.md": "5617a7f71f9947b1ec39c35cde4a5cfbe61acaf52f664584844c4dbe6d4b84e4",
+        "references/export-and-qa.md": "b26f0232c792f6bc5515d0bcb871b800c9805166ad0e6c35336fcb04767bd3df",
+        "references/prepare-speaker-script.md": "3935861ba15f8c757e0ab36dc6a6ac622dc57d721507771bcac7d49876e091c8",
+        "SKILL.md": "ae60a81e36dd2298a5197edb0afbe19d683c965ddb2bc8c6fb011291496f1dbd",
+        "VERSION": "db8c7e8e787280eb20a297f6e3634e838b1e7f9740c37c19311d12675ab8dbc4"
       }
     },
     "dsh-ppt-deck": {
