@@ -131,6 +131,9 @@ def find_lo_cli():
 
 EMU = 914400.0
 
+PAGE_NO_NAME = "dsh-page-no"   # 页码标注用这个名字，verify() 计数时跳过
+TITLE_RULE_NAME = "dsh-title-rule"   # 标题下划线与标题同属一个对象
+
 
 # ---------------------------------------------------------------- 文本
 
@@ -151,8 +154,10 @@ def style_run(run, size=SIZE_BODY, color=BODY, bold=False, font=FONT_SANS, spc=N
         run._r.get_or_add_rPr().set("spc", str(int(spc)))
 
 
-def textbox(slide, x, y, w, h, anchor=MSO_ANCHOR.TOP):
+def textbox(slide, x, y, w, h, anchor=MSO_ANCHOR.TOP, name=None):
     tb = slide.shapes.add_textbox(Inches(x), Inches(y), Inches(w), Inches(h))
+    if name:
+        tb.name = name          # verify() 靠这个名字跳过页码之类的非内容对象
     tf = tb.text_frame
     tf.word_wrap = True
     tf.auto_size = MSO_AUTO_SIZE.NONE
@@ -260,13 +265,14 @@ def header(slide, title, *, size=SIZE_TITLE, rule_w=None, rule_color=None, y=0.4
     para(tf, title, size=size, color=INK, bold=True, spacing=1.1, first=True)
     if rule_w is None:
         rule_w = min(max(len(title) * size / 72.0 * 0.98, 1.2), CONTENT_W)
-    rect(slide, MARGIN - 0.05, y + size / 72.0 * 1.55, rule_w, 0.052,
-         fill=rule_color or ACCENT)
+    rule = rect(slide, MARGIN - 0.05, y + size / 72.0 * 1.55, rule_w, 0.052,
+                fill=rule_color or ACCENT)
+    rule.name = TITLE_RULE_NAME     # 标题下划线跟标题算同一个对象
     return rule_w
 
 
 def page_no(slide, idx, total, *, y=7.02):
-    tf = textbox(slide, SLIDE_W - MARGIN - 1.4, y, 1.4, 0.28)
+    tf = textbox(slide, SLIDE_W - MARGIN - 1.4, y, 1.4, 0.28, name=PAGE_NO_NAME)
     para(tf, f"{idx} / {total}", size=SIZE_MIN, color=SUBTLE,
          align=PP_ALIGN.RIGHT, first=True)
 
@@ -346,7 +352,8 @@ class Deck:
                     for run in p.runs:
                         if run.font.size:
                             sizes.append(run.font.size.pt)
-            n = len(sl.shapes)
+            n = len([sh for sh in sl.shapes
+                     if sh.name not in (PAGE_NO_NAME, TITLE_RULE_NAME)])
             if n > 10:
                 issues.append(f"p{i} 对象数 {n} > 10，可能在用形状凑版面")
             elif n > 6:
@@ -414,5 +421,5 @@ __all__ = [
     "INK", "BODY", "SUBTLE", "ACCENT", "RULE", "PANEL", "BAD", "GOOD",
     "FONT_SANS", "FONT_SERIF",
     "SIZE_COVER", "SIZE_TITLE", "SIZE_SUB", "SIZE_BODY", "SIZE_MIN",
-    "find_node", "find_lo_cli",
+    "find_node", "find_lo_cli", "PAGE_NO_NAME",
 ]

@@ -14,15 +14,15 @@
       }
     },
     "dsh-ppt-deck": {
-      "version": "1.1.0",
+      "version": "1.1.1",
       "files": {
-        "assets/deck_kit.py": "2488630cc0e52e702fa6da6f5c8e2cddc2d2d1a8112742ec4d4117916213e138",
-        "CHANGELOG.md": "132fa8e7ece6caf1216e7f8c5fa02a27430b793ce7914e2c5b825d98a557ec70",
+        "assets/deck_kit.py": "686ed50faf4bdae8ddb008e0155bb37ef25d0ab2a583d372888eb54d9634b47c",
+        "CHANGELOG.md": "a56e83d1277468b6c5bc3066625090c636fe9927174e7462243bc715f0846b53",
         "references/create-or-revise-deck.md": "0c418f0548d4a817f10869c7862c34e2f8c88d16e46aa9b251219aaff8ca54d5",
         "references/fix-slide-layout.md": "388df195711954ab82a1c624125e5efe77de78da7b489a65059bd449adbe9b79",
         "references/render-and-qa.md": "05d4319fe5497b0e22d18be2047e320495a38b3ae96e26bd33b59f2a19502a02",
         "SKILL.md": "2d733465be3255ff3c6a6f04f9f737e044a606cba9b3a3e8cac8448c1f5bcaba",
-        "VERSION": "db8c7e8e787280eb20a297f6e3634e838b1e7f9740c37c19311d12675ab8dbc4"
+        "VERSION": "d04531066cfd1d19f473f0bee4262d3ee8fa04c18ebf5c6e65a2356a70bbd8b2"
       }
     },
     "humanize-writing": {
