@@ -15,7 +15,7 @@
     d.render("1,2")          # 渲染成 PNG，肉眼看
     d.cleanup()              # 删掉预览目录
 
-规则见 SKILL.md：一页一张图、对象数 2–6、正文 ≥18pt、不放装饰小字。
+制作规则和验收见 SKILL.md 与 references/create-or-revise-deck.md。
 
 渲染依赖 node 和 DSH 自带的 LibreOffice Kit CLI，路径自动发现；
 找不到时可用环境变量 DSH_NODE / DSH_LO_CLI / DSH_INSTALL_DIR 指定。
@@ -328,8 +328,14 @@ class Deck:
             for sh in sl.shapes:
                 if None in (sh.left, sh.top):
                     continue
+                left = sh.left / EMU
+                top = sh.top / EMU
                 r = (sh.left + sh.width) / EMU
                 b = (sh.top + sh.height) / EMU
+                if left < -0.02:
+                    issues.append(f"p{i} 越界左侧 {left:.2f}in")
+                if top < -0.02:
+                    issues.append(f"p{i} 越界顶部 {top:.2f}in")
                 if r > self.width + 0.02:
                     issues.append(f"p{i} 越界右侧 {r:.2f}in")
                 if b > self.height + 0.02:
@@ -343,6 +349,8 @@ class Deck:
             n = len(sl.shapes)
             if n > 10:
                 issues.append(f"p{i} 对象数 {n} > 10，可能在用形状凑版面")
+            elif n > 6:
+                issues.append(f"p{i} 对象数 {n} 超过 6")
             if n < 2:
                 issues.append(f"p{i} 只有 {n} 个对象")
             if not sl.has_notes_slide or not sl.notes_slide.notes_text_frame.text.strip():
