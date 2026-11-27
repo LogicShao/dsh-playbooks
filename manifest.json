@@ -52,18 +52,18 @@
       }
     },
     "research-align": {
-      "version": "1.0.0",
+      "version": "1.1.0",
       "files": {
-        "assets/claim-evidence.md": "2b61d1cc2c36ab40bf10fed1c950c894af36fe4ba8547e1cf410fc94ed85a1fb",
+        "assets/claim-evidence.md": "b2260ad7deac3144c03d9cb51a3a4e44e76ab9fac579d3f9f1b8222be9575e51",
         "assets/decisions.md": "bbaa95bc5e1d96b1dbcd302b1da083f08dc927678656726465571735275b8ebf",
         "assets/research-brief.md": "942aa0c9052c65d932937c8364708f34f4fec572ba7378d3a853750330640f1f",
-        "CHANGELOG.md": "d8c85f1ed92d2968615c254055616197fb25b9eba702da4e1d0fc4dec052a267",
-        "references/alignment-protocol.md": "d22d3e01be417a81419f0ad0303e221d87809a1bade8c59584d98ba08e1dddb0",
-        "references/open-source-landscape.md": "58697af3dfa53b9ab6421147de3fc29c2a7b6d2d07c93fbe1c15297460ccc2ad",
-        "references/task-recipes.md": "305057f2c468f01ad4a3619bc62e7fbe229ff52e32c9e64db49a28e0eae91183",
-        "references/verification.md": "edba57409b5f2820d3fd376a4ca5d42981ece702e47a47b67d1cf37de94b3788",
-        "SKILL.md": "acabe6f3652d24443bb77f1be207a9e0986608bf5d486044db540991a34d1412",
-        "VERSION": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03"
+        "CHANGELOG.md": "0ac261292f29bf4d15e61b8f69bae7527fe36f5130a36da7acfce175a3e73f10",
+        "references/alignment-protocol.md": "ce28d0a523b28f0cefc5edccb282b6d5a44d582d4779eacb0b7efc229d091075",
+        "references/open-source-landscape.md": "2590a5d2ec7dc2719aab2bb283c6a035ea4c1a26ac1dbee404b05d018c033da5",
+        "references/task-recipes.md": "e4217a88f1bee181f27f7dabe63b5627f3f609a1bc76de91f6da18be68d2fe6a",
+        "references/verification.md": "303292f74ac7ca3567bc8bb5a670a062306adb0dc389f050c3ce308bea507caf",
+        "SKILL.md": "8bd4458fff63c11c089bdc6b3073eb4f505041b52935cdd0d52bff52fdcd838e",
+        "VERSION": "1575e1af4a95f12f70b4ee6a6adce8160953d93ea17dc2611b90883ccc3ad3b8"
       }
     }
   }
