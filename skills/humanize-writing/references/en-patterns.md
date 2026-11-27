@@ -1,7 +1,5 @@
 # English AI-isms
 
-> Sources: Wikipedia *Signs of AI writing*, GPTZero vocabulary research, community humanizer pattern dictionaries.
->
 > Same rule as Chinese: **density, not presence.** One of these words is fine. A paragraph of them is a fingerprint.
 
 ## 1. Vocabulary

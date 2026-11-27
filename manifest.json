@@ -26,16 +26,16 @@
       }
     },
     "humanize-writing": {
-      "version": "1.0.0",
+      "version": "1.1.0",
       "files": {
-        "CHANGELOG.md": "33f144fbc3ca9e2c6f99e5966bae8ad50e9b32917d4b0d9feea7af6e8681c17a",
-        "references/checklist.md": "f55f1d323c4bc1ccc2b0a70fa291871190b6d3838585e50ec2dd76f22d17d325",
-        "references/en-patterns.md": "5dd25cd1f9a1003e065caa8d9c06f4dc2e47713a8c652ee3808ad62c440133a8",
-        "references/playbook.md": "d1ca82627e32c4af791429850e51d8aceb085b597449bc72a2ce1f87b29d2c8b",
-        "references/style-guide.md": "56049d4e003cd4fafedc9ba79486c086f22405f68a2aa0a41befa6a9b9c8bf8c",
-        "references/zh-patterns.md": "e7e8d79eed3d048dbfa3dfcff5c21556b48499ef4b0a6875ff215a66d1e817ad",
-        "SKILL.md": "8dd88c2197b728bd8a43dfd2c91bd343555b3e18b30847e45934200b18919406",
-        "VERSION": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03"
+        "CHANGELOG.md": "b10c13bdd92670a56907de1d1e7822fcda1c18f9970fb600b71f85099c718301",
+        "references/checklist.md": "a55560a6a52459715f0bf8a66f4e1022b5bbfe6cb31f8f0e45bf14e5a3214f57",
+        "references/en-patterns.md": "17f7959c00fe5d6ebee21be30df8be8746e907a8b27610cb297a613be1615527",
+        "references/playbook.md": "cfa8f71bdb70eff60bd026f40a2e1e7aa7b8a76be76fbd164d2962174ccf2213",
+        "references/style-guide.md": "a49bdef2c833565ef9b1f6032daa2bf1b4596bbf8965556807f93bd651b349eb",
+        "references/zh-patterns.md": "0a25cce990152b5f2e2bd9dc4c6cc943d5cf4fc10803841f74c750be79a1fd1a",
+        "SKILL.md": "b8c74e3d5aa9d818bb123ef7db272ec7bcbb2dba6596323b3b00cba0bb6fa24e",
+        "VERSION": "1575e1af4a95f12f70b4ee6a6adce8160953d93ea17dc2611b90883ccc3ad3b8"
       }
     },
     "longform-report": {
