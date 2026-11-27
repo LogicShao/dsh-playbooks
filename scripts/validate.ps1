@@ -76,6 +76,19 @@ foreach ($d in $dirs) {
     if ($text -notmatch '(?m)^## 相关技能') { $warnings.Add("$name 没有「相关技能」一节") }
     if ($readme -and $readme -notmatch [regex]::Escape($name)) { $warnings.Add("README 没有提到 $name") }
 
+    # README 技能表的版本栏必须与 VERSION 一致，防止升版后忘改
+    if ($readme -and $version) {
+        $row = [regex]::Match($readme, '\|\s*\[' + [regex]::Escape($name) + '\]\([^)]+\)\s*\|\s*(\d+\.\d+\.\d+)\s*\|')
+        if ($row.Success) {
+            if ($row.Groups[1].Value -ne $version) {
+                $errors.Add("README 里 $name 写的是 v$($row.Groups[1].Value)，VERSION 是 v$version")
+            }
+        }
+        else {
+            $warnings.Add("README 表格里找不到 $name 的版本行")
+        }
+    }
+
     if ($manifest) {
         $entry = $manifest.skills.$name
         if (-not $entry) { $errors.Add("manifest.json 里没有 $name，跑 scripts/manifest.ps1") }

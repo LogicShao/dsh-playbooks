@@ -1,4 +1,4 @@
-"""Read one \note{...} per explicit Beamer frame and check exported page counts."""
+r"""Read one \note{...} per explicit Beamer frame and check exported page counts."""
 import argparse
 import re
 from pathlib import Path

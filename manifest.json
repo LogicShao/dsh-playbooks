@@ -2,27 +2,27 @@
   "schema": 1,
   "skills": {
     "academic-slide-deck": {
-      "version": "1.1.0",
+      "version": "1.1.1",
       "files": {
-        "assets/beamer_notes.py": "f1d574453496804c66799f05461d389edf704d27e3869ada7f8194ac5cfcb4d3",
-        "CHANGELOG.md": "5397ff8bf52f6f53cfb69199cd4e184232c06d5bf8dba69c017bf1fffde11751",
+        "assets/beamer_notes.py": "c355e28a0d106703ff5226f56b2251b3955a6306fe3172815bc78abdcec121d8",
+        "CHANGELOG.md": "99dea6095372e991d1ae65bf18e174d7bc4882597cff46d318c828f0d4799cc6",
         "references/create-beamer-deck.md": "5617a7f71f9947b1ec39c35cde4a5cfbe61acaf52f664584844c4dbe6d4b84e4",
         "references/export-and-qa.md": "b26f0232c792f6bc5515d0bcb871b800c9805166ad0e6c35336fcb04767bd3df",
         "references/prepare-speaker-script.md": "3935861ba15f8c757e0ab36dc6a6ac622dc57d721507771bcac7d49876e091c8",
-        "SKILL.md": "ae60a81e36dd2298a5197edb0afbe19d683c965ddb2bc8c6fb011291496f1dbd",
-        "VERSION": "db8c7e8e787280eb20a297f6e3634e838b1e7f9740c37c19311d12675ab8dbc4"
+        "SKILL.md": "170f2a8d2863eb0071a403f04103571ad5f4d5f600390661564562ad2b67c190",
+        "VERSION": "d04531066cfd1d19f473f0bee4262d3ee8fa04c18ebf5c6e65a2356a70bbd8b2"
       }
     },
     "dsh-ppt-deck": {
-      "version": "1.1.1",
+      "version": "1.1.2",
       "files": {
         "assets/deck_kit.py": "686ed50faf4bdae8ddb008e0155bb37ef25d0ab2a583d372888eb54d9634b47c",
-        "CHANGELOG.md": "a56e83d1277468b6c5bc3066625090c636fe9927174e7462243bc715f0846b53",
+        "CHANGELOG.md": "b6dcde0b5af7d7565da4ec8ddfe07c5dc8ff5b3456c278749e3027931ac1b428",
         "references/create-or-revise-deck.md": "0c418f0548d4a817f10869c7862c34e2f8c88d16e46aa9b251219aaff8ca54d5",
         "references/fix-slide-layout.md": "388df195711954ab82a1c624125e5efe77de78da7b489a65059bd449adbe9b79",
         "references/render-and-qa.md": "05d4319fe5497b0e22d18be2047e320495a38b3ae96e26bd33b59f2a19502a02",
-        "SKILL.md": "2d733465be3255ff3c6a6f04f9f737e044a606cba9b3a3e8cac8448c1f5bcaba",
-        "VERSION": "d04531066cfd1d19f473f0bee4262d3ee8fa04c18ebf5c6e65a2356a70bbd8b2"
+        "SKILL.md": "951b287e6f580d16aafd6334bf35176bf7d57ab273b98ba4b59961797028ff41",
+        "VERSION": "aa0aa273198edc66a50eff88fd18d924fdbc8db545136ed35612f826b8c36314"
       }
     },
     "humanize-writing": {
@@ -39,31 +39,32 @@
       }
     },
     "longform-report": {
-      "version": "1.1.0",
+      "version": "1.1.1",
       "files": {
-        "CHANGELOG.md": "95a254a1bb6b465aa0bfede07fa3e6ff5d35ca27530acf662eb3595724f9be31",
-        "references/deliver-report.md": "8c625d85afc24b534efde0c2acd24f995cc6dd5777be309c1742c30365739d86",
+        "CHANGELOG.md": "b9882f372624ed48f42b0bcddde12529a0af5457f1acd6878881d711bf582b41",
+        "references/cases.md": "59d810ac2b74e0d339094a5146e1c1d4e0f10105166de21afeee9825977078f0",
+        "references/deliver-report.md": "74e2af37bb20ccef84dbf4755ba1bca7eb482cddd6b55d91c82db2481e76fd25",
         "references/layout.md": "e96b5deb5ccb3ae840c8801f191766c9a0b977a4f7dbce5d4bba3858bc29ce45",
         "references/plan-report.md": "d58dc3431756ea3159a94f0593596de1159bc0ffa8e9da5224f6d4f6faad5fc7",
-        "references/research-sources.md": "46c2b304c2df542703a0218e292e477f301fad5b2cd4d3c913de9097e37f9279",
+        "references/research-sources.md": "fb9fa9a2ae89a6a22ead36e6c608810fa3d7f2886a35035e5cf715900370f469",
         "references/verify-draft.md": "3c4736f304a9779d41faf573199caecc02d6d722b60e245145f4a7bfc2349e7f",
-        "SKILL.md": "e33d8ac2f1c8f0e450652e6a327e60e3218120b6e049cfe6c1c4037af9eb8af8",
-        "VERSION": "db8c7e8e787280eb20a297f6e3634e838b1e7f9740c37c19311d12675ab8dbc4"
+        "SKILL.md": "9e65324f7d9104313eb815e56a4edf6cab4da4f21e9f8481b83540f42f63f909",
+        "VERSION": "d04531066cfd1d19f473f0bee4262d3ee8fa04c18ebf5c6e65a2356a70bbd8b2"
       }
     },
     "research-align": {
-      "version": "1.1.0",
+      "version": "1.1.1",
       "files": {
         "assets/claim-evidence.md": "b2260ad7deac3144c03d9cb51a3a4e44e76ab9fac579d3f9f1b8222be9575e51",
         "assets/decisions.md": "bbaa95bc5e1d96b1dbcd302b1da083f08dc927678656726465571735275b8ebf",
         "assets/research-brief.md": "942aa0c9052c65d932937c8364708f34f4fec572ba7378d3a853750330640f1f",
-        "CHANGELOG.md": "0ac261292f29bf4d15e61b8f69bae7527fe36f5130a36da7acfce175a3e73f10",
+        "CHANGELOG.md": "91c9e2131c2327d7b89295aa573fd248da2385bcff7a76018f58352959d86101",
         "references/alignment-protocol.md": "ce28d0a523b28f0cefc5edccb282b6d5a44d582d4779eacb0b7efc229d091075",
-        "references/open-source-landscape.md": "2590a5d2ec7dc2719aab2bb283c6a035ea4c1a26ac1dbee404b05d018c033da5",
-        "references/task-recipes.md": "e4217a88f1bee181f27f7dabe63b5627f3f609a1bc76de91f6da18be68d2fe6a",
-        "references/verification.md": "303292f74ac7ca3567bc8bb5a670a062306adb0dc389f050c3ce308bea507caf",
-        "SKILL.md": "8bd4458fff63c11c089bdc6b3073eb4f505041b52935cdd0d52bff52fdcd838e",
-        "VERSION": "1575e1af4a95f12f70b4ee6a6adce8160953d93ea17dc2611b90883ccc3ad3b8"
+        "references/open-source-landscape.md": "95b624ddec377ab66107c0977eda473463f3b024d8487b2a31ae002659d67140",
+        "references/task-recipes.md": "0160956d5a9a6ad8a9cbccf39dbb29cbd990a44eca2d491114f337793f3ab48a",
+        "references/verification.md": "fffb08ede31e066a727bb6a8ee5990094a0ad4ca343b8e64cdd815f4c9b35821",
+        "SKILL.md": "daabe6b09efcaf8d8b69826ddbd56ab7ff4c476918e7960133f631c833a11cf1",
+        "VERSION": "d04531066cfd1d19f473f0bee4262d3ee8fa04c18ebf5c6e65a2356a70bbd8b2"
       }
     }
   }

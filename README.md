@@ -8,11 +8,11 @@
 
 | 技能 | 版本 | 什么时候用 | 一句话 |
 |---|---|---|---|
-| [dsh-ppt-deck](skills/dsh-ppt-deck/SKILL.md) | 1.1.1 | 做 PPT、汇报材料、答辩稿、课件；或改一份现成的 .pptx | 先大纲后脚本，python-pptx 生成，渲染成 PNG 逐页看图 |
-| [academic-slide-deck](skills/academic-slide-deck/SKILL.md) | 1.1.0 | 组会、翻转课堂、开题、答辩，想要 Beamer 质感 | LaTeX Beamer → PDF → 逐页图 PPTX + 讲稿 |
+| [dsh-ppt-deck](skills/dsh-ppt-deck/SKILL.md) | 1.1.2 | 做 PPT、汇报材料、答辩稿、课件；或改一份现成的 .pptx | 先大纲后脚本，python-pptx 生成，渲染成 PNG 逐页看图 |
+| [academic-slide-deck](skills/academic-slide-deck/SKILL.md) | 1.1.1 | 组会、翻转课堂、开题、答辩，想要 Beamer 质感 | LaTeX Beamer → PDF → 逐页图 PPTX + 讲稿 |
 | [humanize-writing](skills/humanize-writing/SKILL.md) | 1.1.0 | 去 AI 味、写得更像人、模仿某人文风 | 删 → 换 → 补 → 读，四步减法 |
-| [longform-report](skills/longform-report/SKILL.md) | 1.1.0 | 综述、调研报告、白皮书、实验报告，超过三五页 | 七步流水线：调研 → 台账 → 写作 → 独立复核 → 版式验收 |
-| [research-align](skills/research-align/SKILL.md) | 1.1.0 | 科研写作、改稿、审稿回复，怕它写偏或编文献 | `.research/` 三件套 + 复述握手 + 四道闸门 |
+| [longform-report](skills/longform-report/SKILL.md) | 1.1.1 | 综述、调研报告、白皮书、实验报告，超过三五页 | 七步流水线：调研 → 台账 → 写作 → 独立复核 → 版式验收 |
+| [research-align](skills/research-align/SKILL.md) | 1.1.1 | 科研写作、改稿、审稿回复，怕它写偏或编文献 | `.research/` 三件套 + 复述握手 + 四道闸门 |
 
 两个 PPT 技能的分工：要**可编辑的 pptx**、以代码驱动排版，用 `dsh-ppt-deck`；要**Beamer 的排版质量**、接受 PPTX 是逐页图，用 `academic-slide-deck`。
 

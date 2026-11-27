@@ -16,7 +16,7 @@ whenToUse: 用户说「做份能编辑的汇报 PPT」「改一下这份 .pptx�
 | 修阴影、中文字体、标题压线 | [修版式问题](references/fix-slide-layout.md) |
 | 渲染或检查已有 PPTX | [渲染和验收](references/render-and-qa.md) |
 | 只说「做个答辩 PPT」，交付格式未定 | 问「交付后要在 PowerPoint 里继续改文字和图表吗？」 |
-| 指定 Beamer，接受逐页图片的 PPTX | 见 [academic-slide-deck](../academic-slide-deck/SKILL.md) |
+| 指定 Beamer，接受逐页图片的 PPTX | 见 `academic-slide-deck` 技能 |
 
 ## 最小流程
 

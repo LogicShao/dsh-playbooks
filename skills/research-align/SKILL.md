@@ -81,10 +81,10 @@ whenToUse: 用户说「按我的数据写结果」「上次讨论到这，接着
 - `references/alignment-protocol.md` — 复述模板、四道闸门细节、验收清单、Red Flags
 - `references/task-recipes.md` — 九类科研任务配方
 - `references/verification.md` — 引文核验、三类幻觉、核验工具
-- `references/open-source-landscape.md` — 选择和接入外部工具时的检查项
+- `references/open-source-landscape.md` — 选工具的检查项，以及可借鉴的开源项目盘点
 
 ## 相关技能
 
-- 整份多来源长报告的数字对账、独立复核和定向复审见 [longform-report](../longform-report/SKILL.md)
+- 整份多来源长报告的数字对账、独立复核和定向复审见 `longform-report` 技能
 - 正文定稿后的去 AI 味：`humanize-writing`
 - 组会/答辩要出幻灯片：`dsh-ppt-deck`，或 Beamer 路线 `academic-slide-deck`

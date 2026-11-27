@@ -1,6 +1,6 @@
 # 定稿与交付
 
-内容稳定后加载 [humanize-writing](../../humanize-writing/SKILL.md) 调整语言，保护结论、引文和数字。若改动影响页序或版式，重新编译，运行[版式验收](layout.md)。若改动涉及事实、引用或条件，按[定向复审](verify-draft.md#定向复审)复查。
+内容稳定后加载 `humanize-writing` 技能调整语言，保护结论、引文和数字。若改动影响页序或版式，重新编译，运行[版式验收](layout.md)。若改动涉及事实、引用或条件，按[定向复审](verify-draft.md#定向复审)复查。
 
 ## 终稿语言调整
 
