@@ -39,14 +39,16 @@
       }
     },
     "longform-report": {
-      "version": "1.0.1",
+      "version": "1.1.0",
       "files": {
-        "CHANGELOG.md": "19705e386c4f98702e663091967a7646f12ce9afc61e45f145f969ad8d3c21fe",
-        "references/cases.md": "59d810ac2b74e0d339094a5146e1c1d4e0f10105166de21afeee9825977078f0",
-        "references/layout.md": "ed3bfb0bfd79bc9b7a9f2debb91f6c9e753d5d58d0dbb887a9ab56fe8d6549f4",
-        "references/prompts.md": "8fc0ee4280a8160c31ec081490d8351005f2bc7b8499d455cd8e4291e9ec64bb",
-        "SKILL.md": "16bd0b058d88865b81a3a99d310c669758811d4efead9c4b4e0c0ca0c1cd8c68",
-        "VERSION": "79c5ba684b4f8f1bebcc956ef8f1b88afdcbb9f3d279f59e8802483eb01b48a0"
+        "CHANGELOG.md": "95a254a1bb6b465aa0bfede07fa3e6ff5d35ca27530acf662eb3595724f9be31",
+        "references/deliver-report.md": "8c625d85afc24b534efde0c2acd24f995cc6dd5777be309c1742c30365739d86",
+        "references/layout.md": "e96b5deb5ccb3ae840c8801f191766c9a0b977a4f7dbce5d4bba3858bc29ce45",
+        "references/plan-report.md": "d58dc3431756ea3159a94f0593596de1159bc0ffa8e9da5224f6d4f6faad5fc7",
+        "references/research-sources.md": "46c2b304c2df542703a0218e292e477f301fad5b2cd4d3c913de9097e37f9279",
+        "references/verify-draft.md": "3c4736f304a9779d41faf573199caecc02d6d722b60e245145f4a7bfc2349e7f",
+        "SKILL.md": "e33d8ac2f1c8f0e450652e6a327e60e3218120b6e049cfe6c1c4037af9eb8af8",
+        "VERSION": "db8c7e8e787280eb20a297f6e3634e838b1e7f9740c37c19311d12675ab8dbc4"
       }
     },
     "research-align": {
